@@ -9,13 +9,13 @@ function Pizza(size, topping1, topping2, topping3) {
 
 Pizza.prototype.pizzaPrice = function() {
   if (this.size === '12"') {
-    $("#pizza-final").append("You owe $15" + "<br>")
+    $("#pizza-final").append("You owe $15, Thank you for choosing St. Johns Pizza Parlor" + "<br>")
   }
   else if (this.size === '16"') {
-    $("#pizza-final").append("You owe $20" + "<br>")
+    $("#pizza-final").append("You owe $20, Thank you for choosing St. Johns Pizza Parlor" + "<br>")
   }
   else if (this.size === '18"') {
-    $("#pizza-final").append("You owe $25" + "<br>")
+    $("#pizza-final").append("You owe $25, Thank you for choosing St. Johns Pizza Parlor" + "<br>")
   }
   else {
     $("#pizza-final").append("Please choose a size")

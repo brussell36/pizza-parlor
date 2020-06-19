@@ -10,21 +10,24 @@ _This Application will allow a user to select a size of pizza and let them choos
 
 ## Specifications
 
-1. Allow a user to choose from 3 sizes of pizzas
-* Input: checkbox 
-* Output: 14 inch
+1. Take inputs from user
+* Input: dropdown menus with size and others with toppings 
+* Output: 14"
+          Pepperoni
+          Olives
+          Tomato
 
-2. Allow use to choose one or more toppings
-* Input: list of checkboxes
-* Output: Cheese, Olives, Pepperoni, Anchovies, Sausage
+2. Initialize new Pizza object with user selections as values
+* Input: dropdown selections
+* Output: associate values with keys of new instance of object
 
-3. Store user inputs into an object
-* Input: Siza and toppings
+3. Loop through values and output them back to user in hidden div at bottom of page
+* Input: put object into variable and have a for..of loop list them back to user
 * Output: You chose this size and these toppings
 
-4. Add together user inputs and tell them how much they owe for the pizza.
+4. Add method to tell user how much pizza will cost depending on what size they chose with if..else statement
 * Input: Size and toppings
-* Output: You owe $24 for your pizza, Thank you for choosing us
+* Output: You owe $25 for your pizza, Thank you for choosing us
 
 ## Setup/Installation Requirements
 
@@ -44,7 +47,7 @@ _This Application will allow a user to select a size of pizza and let them choos
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_No known bugs. Please get in touch if you find any. Email below in Support and contact details._
 
 ## Support and contact details
 
