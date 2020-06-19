@@ -10,10 +10,18 @@ h1 {
   margin: 1em 0 1em 0;
 }
 
+.topping {
+  width: 20%;
+}
+
 .container {
   background-color: #f3c623;
 }
 
 .btn {
   margin-bottom: 10px;
+}
+
+#pizza-size {
+  width: 10%;
 }
