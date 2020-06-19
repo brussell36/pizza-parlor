@@ -8,6 +8,8 @@ body {
 h1 {
   font-size: 5em;
   text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
 }
 
 .topping {
@@ -17,6 +19,7 @@ h1 {
 .container {
   background-color: #f3c623;
   margin-bottom: 2em;
+  margin-top: 2em;
   padding-bottom: 30px;
 }
 
@@ -34,4 +37,8 @@ h1 {
 
 #pizza-final {
   display: none;
+}
+
+#pizza-imgs {
+  text-align: center;
 }
