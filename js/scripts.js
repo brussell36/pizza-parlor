@@ -34,6 +34,7 @@ $(document).ready(function() {
   $("form#pizza-choose").submit(function(event) {
     event.preventDefault();
     $("#pizza-final").show();
+    $("#pizza-choose").hide();
     const size = $("#pizza-size").val();
     const topping1 = $("#pizza-topping1").val();
     const topping2 = $("#pizza-topping2").val();
