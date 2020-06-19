@@ -1,12 +1,30 @@
-# _{Application Name}_
+# _Pizza Parlor_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _Allow a user to choose the size of pizza and toppings they want, 6/19/2020_
 
 #### By _**Ben Russell**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This Application will allow a user to select a size of pizza and let them choose which toppings they would like. Then they will be given a cost for how much they owe for the pizza._
+
+## Specifications
+
+1. Allow a user to choose from 3 sizes of pizzas
+Input: checkbox 
+Output: 14 inch
+
+2. Allow use to choose one or more toppings
+Input: list of checkboxes
+Output: Cheese, Olives, Pepperoni, Anchovies, Sausage
+
+3. Store user inputs into an object
+Input: Siza and toppings
+Output: You chose this size and these toppings
+
+4. Add together user inputs and tell them how much they owe for the pizza.
+Input: Size and toppings
+Output: You owe $24 for your pizza, Thank you for choosing us
 
 ## Setup/Installation Requirements
 
@@ -34,10 +52,11 @@ _If you have any issues or questions and concerns, please contact me at benjamin
 
 ## Technologies Used
 
-*_HTML_
-*_CSS_
-*_Bootstrap_
-*_jQuery_
+* _HTML_
+* _CSS_
+* _Bootstrap_
+* _jQuery_
+* _JavaScript_
 
 ### License
 
