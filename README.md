@@ -40,12 +40,12 @@ _This Application will allow a user to select a size of pizza and let them choos
 
 ### Open via Bash/Gitbash
 
-* _clone this repository onto your computer:_
+* _clone this repository onto your computer: https://github.com/brussell36/pizza-parlor.git_
 * _Navigate into the portfolio-page directory in VS Code or text editor of choice code ._
 * _Open index.html in your preffered browser_
 * _Feel free to edit anything you like and push them to your own repo_
 * _This is all open source_
-
+* _Please click this link to see live page. https://brussell36.github.io/pizza-parlor/_
 
 ## Known Bugs
 
