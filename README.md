@@ -11,26 +11,26 @@ _This Application will allow a user to select a size of pizza and let them choos
 ## Specifications
 
 1. Allow a user to choose from 3 sizes of pizzas
-Input: checkbox 
-Output: 14 inch
+* Input: checkbox 
+* Output: 14 inch
 
 2. Allow use to choose one or more toppings
-Input: list of checkboxes
-Output: Cheese, Olives, Pepperoni, Anchovies, Sausage
+* Input: list of checkboxes
+* Output: Cheese, Olives, Pepperoni, Anchovies, Sausage
 
 3. Store user inputs into an object
-Input: Siza and toppings
-Output: You chose this size and these toppings
+* Input: Siza and toppings
+* Output: You chose this size and these toppings
 
 4. Add together user inputs and tell them how much they owe for the pizza.
-Input: Size and toppings
-Output: You owe $24 for your pizza, Thank you for choosing us
+* Input: Size and toppings
+* Output: You owe $24 for your pizza, Thank you for choosing us
 
 ## Setup/Installation Requirements
 
 ### Open by downloading
 
-1. _Download this repository onto your computer._
+1. _Download this repository onto your computer. https://github.com/brussell36/pizza-parlor.git_
 2. _Double click index.html to open in your web browser._
 
 ### Open via Bash/Gitbash
