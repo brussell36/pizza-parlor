@@ -17,17 +17,15 @@ h1 {
 .container {
   background-color: #f3c623;
   margin-bottom: 2em;
+  padding-bottom: 30px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
 }
 
 .btn {
   margin-bottom: 10px;
-}
-
-.header-img {
-  display: inline-block;
-  margin-left: 19em;
-  margin-top: 2em;
-  width: 30%;
 }
 
 #pizza-size {
