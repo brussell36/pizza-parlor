@@ -19,8 +19,10 @@ Pizza.prototype.pizzaPrice = function() {
   }
 }
 
-function showPizza() {
-  $("#pizza-final").append(this.size + "<br>" + this.topping1 + "<br>" + this.topping2 + "<br>" + this.topping3 + "<br>")
+function showPizza(pizza) {
+  for (let values of Object.values(pizza)) {
+    $("#pizza-final").append(`${values}<br>`);
+  }
 }
 
 // UI Logic
@@ -35,7 +37,7 @@ $(document).ready(function() {
     const topping3 = $("#pizza-topping3").val();
     const pizza = new Pizza(size, topping1, topping2, topping3);
     console.log(pizza);
+    showPizza(pizza);
     pizza.pizzaPrice();
-    showPizza();
   });
 });
