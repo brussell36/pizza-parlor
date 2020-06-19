@@ -1,17 +1,13 @@
 // Business Logic
 
 function Pizza(size, toppings) {
-  this.size = size
+  this.size = [size]
   this.toppings = [toppings]
 }
 
-Pizza.prototype.addToppings = function(toppings) {
+Pizza.prototype.addPizza = function(size, toppings) {
+  this.size.push(size);
   this.toppings.push(toppings);
-}
-
-function showPizza(newPizza) {
-  $("#pizza-final").append(pizzaSize + "<br>")
-  $("#pizza-final").append(pizzaToppings + "<br>");
 }
 
 // UI Logic
@@ -24,7 +20,8 @@ $(document).ready(function() {
     const pizzaSize = $("#pizza-size").val();
     $("input:checkbox[name=toppings]:checked").each(function() {
       const pizzaToppings = $(this).val();
-
     });
+    newPizza.addPizza(pizzaSize, pizzaToppings);
+    console.log(newPizza);
   });
 });

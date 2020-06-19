@@ -1,0 +1,18 @@
+body {
+  background-color: #f37121;
+  color: #111d5e;
+}
+
+h1 {
+  font-size: 5em;
+  text-align: center;
+  margin: 1em 0 1em 0;
+}
+
+.container {
+  background-color: #f3c623;
+}
+
+.btn {
+  margin-bottom: 10px;
+}
