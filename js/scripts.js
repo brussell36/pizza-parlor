@@ -14,8 +14,11 @@ Pizza.prototype.pizzaPrice = function() {
   else if (this.size === '16"') {
     $("#pizza-final").append("You owe $20" + "<br>")
   }
-  else {
+  else if (this.size === '18"') {
     $("#pizza-final").append("You owe $25" + "<br>")
+  }
+  else {
+    $("#pizza-final").append("Please choose a size")
   }
 }
 

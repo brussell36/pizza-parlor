@@ -2,6 +2,7 @@ body {
   background-color: #f37121;
   color: #111d5e;
   font-family: 'DM Sans', sans-serif;
+  font-size: 20px;
 }
 
 h1 {
@@ -24,4 +25,8 @@ h1 {
 
 #pizza-size {
   width: 10%;
+}
+
+#pizza-final {
+  display: none;
 }
