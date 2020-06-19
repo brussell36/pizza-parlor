@@ -1,3 +1,5 @@
+![Margharita pizza](https://media4.s-nbcnews.com/j/newscms/2020_09/3246761/plain_pizza_f431dcc55520ce41f835a97a5383f171.fit-760w.jpg)
+
 # _Pizza Parlor_
 
 #### _Allow a user to choose the size of pizza and toppings they want, 6/19/2020_
